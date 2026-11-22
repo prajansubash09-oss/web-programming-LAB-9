@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Information System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Employee Information System</h1>
+            <p>Employee details loaded dynamically from XML</p>
+        </header>
+
+        <section class="toolbar">
+            <input type="search" id="search"
+                   placeholder="Search employees..."
+                   aria-label="Search employees">
+
+            <select id="deptFilter" aria-label="Filter by department">
+                <option value="">All Departments</option>
+            </select>
+
+            <label class="file-btn">
+                Load Another XML
+                <input type="file" id="fileInput"
+                       accept=".xml,text/xml,application/xml" hidden>
+            </label>
+        </section>
+
+        <div id="status" class="status" role="status"></div>
+
+        <div class="table-container">
+            <table id="empTable">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <p id="count" class="count"></p>
+
+        <footer>
+            <p>LAB - 9 | Employee XML Table</p>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

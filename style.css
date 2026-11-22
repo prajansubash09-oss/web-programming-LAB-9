@@ -1,0 +1,185 @@
+:root {
+    --primary: #2455a4;
+    --primary-dark: #173d7a;
+    --background: #f1f4f9;
+    --text: #202b3c;
+    --border: #dce2eb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: var(--primary);
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #68758a;
+    font-size: 16px;
+}
+
+.toolbar {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.toolbar input,
+.toolbar select {
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    font-size: 15px;
+    background: white;
+}
+
+.toolbar input[type="search"] {
+    flex: 1;
+    min-width: 220px;
+}
+
+.toolbar input:focus,
+.toolbar select:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.file-btn {
+    padding: 12px 18px;
+    background: var(--primary);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.file-btn:hover {
+    background: var(--primary-dark);
+}
+
+.status {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.status.error {
+    color: #c62828;
+    background: #ffebee;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.status.success {
+    color: #176b36;
+    background: #e8f5e9;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.table-container {
+    overflow-x: auto;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+thead th {
+    background: var(--primary);
+    color: white;
+    padding: 15px 12px;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+thead th:hover {
+    background: var(--primary-dark);
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+tbody td {
+    padding: 13px 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+tbody tr:nth-child(even) {
+    background: #f6f8fc;
+}
+
+tbody tr:hover {
+    background: #e7efff;
+}
+
+td.num {
+    text-align: right;
+}
+
+.empty-row td {
+    text-align: center;
+    padding: 25px;
+    color: #68758a;
+}
+
+.count {
+    color: #68758a;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #68758a;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px 8px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    .toolbar {
+        flex-direction: column;
+    }
+
+    .toolbar input,
+    .toolbar select {
+        width: 100%;
+    }
+}

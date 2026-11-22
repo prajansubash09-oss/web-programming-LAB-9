@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>101</id>
+        <name>Anita Sharma</name>
+        <department>Engineering</department>
+        <designation>Senior Software Engineer</designation>
+        <email>anita.sharma@example.com</email>
+        <phone>9876543210</phone>
+        <city>Bengaluru</city>
+        <joiningDate>2019-03-15</joiningDate>
+        <salary>1450000</salary>
+    </employee>
+    <employee>
+        <id>102</id>
+        <name>Rahul Verma</name>
+        <department>Human Resources</department>
+        <designation>HR Manager</designation>
+        <email>rahul.verma@example.com</email>
+        <phone>9123456780</phone>
+        <city>Mumbai</city>
+        <joiningDate>2017-07-01</joiningDate>
+        <salary>1250000</salary>
+    </employee>
+    <employee>
+        <id>103</id>
+        <name>Priya Nair</name>
+        <department>Finance</department>
+        <designation>Accountant</designation>
+        <email>priya.nair@example.com</email>
+        <phone>9988776655</phone>
+        <city>Chennai</city>
+        <joiningDate>2020-11-23</joiningDate>
+        <salary>780000</salary>
+    </employee>
+    <employee>
+        <id>104</id>
+        <name>Karthik Reddy</name>
+        <department>Engineering</department>
+        <designation>DevOps Engineer</designation>
+        <email>karthik.reddy@example.com</email>
+        <phone>9012345678</phone>
+        <city>Hyderabad</city>
+        <joiningDate>2021-06-10</joiningDate>
+        <salary>1100000</salary>
+    </employee>
+    <employee>
+        <id>105</id>
+        <name>Sneha Patil</name>
+        <department>Marketing</department>
+        <designation>Marketing Executive</designation>
+        <email>sneha.patil@example.com</email>
+        <phone>8899001122</phone>
+        <city>Pune</city>
+        <joiningDate>2022-01-17</joiningDate>
+        <salary>620000</salary>
+    </employee>
+    <employee>
+        <id>106</id>
+        <name>Mohammed Imran</name>
+        <department>Sales</department>
+        <designation>Sales Lead</designation>
+        <email>imran.m@example.com</email>
+        <phone>9345678901</phone>
+        <city>Delhi</city>
+        <joiningDate>2018-09-05</joiningDate>
+        <salary>950000</salary>
+    </employee>
+    <employee>
+        <id>107</id>
+        <name>Divya Menon</name>
+        <department>Engineering</department>
+        <designation>QA Engineer</designation>
+        <email>divya.menon@example.com</email>
+        <phone>9456123780</phone>
+        <city>Kochi</city>
+        <joiningDate>2023-02-27</joiningDate>
+        <salary>720000</salary>
+    </employee>
+    <employee>
+        <id>108</id>
+        <name>Arjun Singh</name>
+        <department>Finance</department>
+        <designation>Finance Manager</designation>
+        <email>arjun.singh@example.com</email>
+        <phone>9567890123</phone>
+        <city>Jaipur</city>
+        <joiningDate>2016-04-12</joiningDate>
+        <salary>1380000</salary>
+    </employee>
+</employees>
